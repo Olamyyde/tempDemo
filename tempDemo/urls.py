@@ -20,4 +20,5 @@ from demo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('first/', views.render_template),
+    path('emp/', views.render_employee),
 ]
